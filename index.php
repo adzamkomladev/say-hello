@@ -1,7 +1,7 @@
 <?php
 
-function sayHello(string $name): string {
+function sayHello(string $name = "Sarah Mensah"): string {
     return "Hello {$name}";
 }
 
-echo sayHello("Kofi Mensah");
+echo sayHello();
